@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/panzoom.css">
+	<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+	<title>DS DO Landing</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="box">
+				<div class="boxLeft">
+					<div class="">
+						<img src="img/d-icon.svg" alt="d-icon" class="icon">
+					</div>
+					<h1>Desktop Suite<small>(v.13.0.2)</small></h1>
+					<p>
+						Skyrocket your office work effectivity with Desktop Client and Desktop Office documents on Windows	as well as Linux devices. Get the complete Suite, or choose only the app you need.
+					</p>
+				</div>
+				<div class="boxRight">
+					<p>Requirements:</p>
+					<p class="greyText">Windows 10</p>
+					<a href="#" class="button"><img src="img/windows.svg" alt="">Download</a>
+				</div>
+			</div>
+			<div class="boxMenu">
+				<div class="menu">
+					<a href="index.html">
+						<img src="img/dc-icon.svg" alt="dx-icon" class="icon">Desktop Client
+					</a>
+					<a href="desktop-office.html">
+						<img src="img/office-icon.svg" alt="office-icon" class="icon">Desktop Office
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div id="mainCarousel" class="carousel">
+				<div
+				  class="carousel__slide"
+				  data-src="gallery/documents.jpg"
+				  data-fancybox="gallery"
+				  data-caption="Documents"
+				>
+				  <img src="gallery/documents.jpg" alt="Documents">
+				</div>
+				<div
+				  class="carousel__slide"
+				  data-src="gallery/spreadsheets.jpg"
+				  data-fancybox="gallery"
+				  data-caption="Spreadsheets"
+				>
+				  <img src="gallery/spreadsheets.jpg" alt="Spreadsheets">
+				</div>
+				<div
+				  class="carousel__slide"
+				  data-src="gallery/presentations.jpg"
+				  data-fancybox="gallery"
+				  data-caption="Presentations"
+				>
+				  <img src="gallery/presentations.jpg" alt="Presentations">
+				</div>
+			  </div>
+			  
+			  <div id="thumbCarousel" class="carousel">
+				<div class="carousel__slide">
+					<figure>
+						<img class="panzoom__content" src="gallery/thumbs/documents.jpg" alt="Documents">
+						<figcaption>Documents</figcaption>
+					</figure>
+				</div>
+				<div class="carousel__slide">
+					<figure>
+						<img class="panzoom__content" src="gallery/thumbs/spreadsheets.jpg" alt="Spreadsheets">
+						<figcaption>Spreadsheets</figcaption>
+					</figure>
+				</div>
+				<div class="carousel__slide">
+					<figure>
+						<img class="panzoom__content" src="gallery/thumbs/presentations.jpg" alt="Presentations">
+						<figcaption>Presentations</figcaption>
+					</figure>
+				</div>
+			  </div>
+		</div>
+	</section>
+	<script src="js/js.js"></script>
+</body>
+</html>
